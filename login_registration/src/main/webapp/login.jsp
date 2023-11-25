@@ -12,6 +12,14 @@
 
 <!-- Main css -->
 <link rel="stylesheet" href="css/style.css">
+	<script>
+		function sendUsermailToFlask(usermail) {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "http://127.0.0.1:5000/usermail?usermail=" + encodeURIComponent(usermail), true);
+			xhr.send();
+		}
+	</script>
+
 </head>
 <body>
 <input type="hidden" id="status" value="<%= request.getAttribute("status") %>">
@@ -34,7 +42,7 @@
 					<div class="signin-form">
 						<h2 class="form-title">Sign in</h2>
 						<form method="post" action="login" class="register-form"
-							id="login-form">
+							id="login-form" onsubmit="sendUsermailToFlask(document.getElementById('usermail').value)">
 							<div class="form-group">
 								<label for="usermail"><i
 									class="zmdi zmdi-email"></i></label> <input

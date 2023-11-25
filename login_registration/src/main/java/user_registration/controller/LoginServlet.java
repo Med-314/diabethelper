@@ -33,14 +33,18 @@ public class LoginServlet extends HttpServlet {
 		if(uname != null) {
 			request.setAttribute("uemail", uemail);
 			session.setAttribute("name", uname);
-			dispatcher=request.getRequestDispatcher("index.jsp");
+			//dispatcher=request.getRequestDispatcher("index.jsp");
+			//dispatcher=request.getRequestDispatcher("index.html");
+			//dispatcher=request.getRequestDispatcher("http://127.0.0.1:5000");
+			response.sendRedirect("http://127.0.0.1:5000");
 		}
 		else {
 		    request.setAttribute("msg", "Wrong Username or Password, Try again!!!");
 			session.setAttribute("status", "failed");
 		    dispatcher=request.getRequestDispatcher("login.jsp");
+			dispatcher.forward(request, response);
 		}
-		dispatcher.forward(request, response);
+		//dispatcher.forward(request, response);
 
 	}
 
