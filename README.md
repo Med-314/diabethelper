@@ -5,3 +5,8 @@ Le projet "<b><i>Diabete Helper Chatbot</i></b>" est une application JEE intégr
 ## Diagramme de cas d’utilisation
 ![use](https://github.com/Med-314/diabethelper/assets/148261218/5e234d4e-bac4-4f5d-87e3-09008ae994b9)
 ## Interfaces de l'application
+![11](https://github.com/Med-314/diabethelper/assets/148261218/cd320531-1a28-4e76-9290-d7b2366a2fa4)
+![22](https://github.com/Med-314/diabethelper/assets/148261218/66872008-9d4b-494c-a973-fe24751ee4f0)
+![33](https://github.com/Med-314/diabethelper/assets/148261218/9d7bddd8-a530-4ce0-bdc7-d390d1bb2af9)
+![44](https://github.com/Med-314/diabethelper/assets/148261218/bd7b34ed-b94b-4195-bc34-81bef21ac55f)
+![55](https://github.com/Med-314/diabethelper/assets/148261218/5f0f73d6-f212-4386-98f8-d0abf7fef6a8)
