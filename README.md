@@ -17,7 +17,7 @@ Encadré par:
 
 2. [Interfaces de l'application](#interfaces-de-lapplication)
 
-3. [Prérequis](#prérequis)
+3. [Prérequis](#prérequis-)
    - [TensorFlow](#tensorflow)
    - [NLTK](#nltk)
    - [Flask](#flask)
