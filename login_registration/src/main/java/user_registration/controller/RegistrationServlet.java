@@ -48,14 +48,16 @@ public class RegistrationServlet extends HttpServlet {
 	    
 	    if (flag) {
 	    	request.setAttribute("status", "success");
+			dispatcher = request.getRequestDispatcher("login.jsp");
 	    }
 	    else {
 	    	request.setAttribute("status", "failed");
+			dispatcher = request.getRequestDispatcher("registration.jsp");
 	    }
 
 	    //request.getRequestDispatcher("login.jsp").include(request, response);
 
-		dispatcher = request.getRequestDispatcher("login.jsp");
+
 		dispatcher.forward(request, response);
 
 	}

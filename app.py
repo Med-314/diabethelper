@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, session
 
 from chatbot import *
 
@@ -10,7 +10,12 @@ app.static_folder = 'static'
 @app.route("/")
 def home():
     
-    return render_template("chatbot.html")
+    #username = session.get('uname', 'Unknown Username or Guest')
+    username = request.args.get('uname')
+    if username == None:
+        username="GUEST"
+    print('Hello! Your name is: {}'.format(username))
+    return render_template("chatbot.html",username=username)
     #return render_template("login_registration/src/main/webapp/index.html")
 
 @app.route("/get")

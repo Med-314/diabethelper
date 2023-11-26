@@ -26,7 +26,21 @@
 html {
   box-sizing: border-box;
 }
+a:link, a:visited {
+  background-color: #ED1C24; 
+  border: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
 
+a:hover, a:active {
+  background-color: red;
+}
 *,
 *:before,
 *:after {
@@ -67,6 +81,18 @@ body {
   border-bottom: var(--border);
   background: #eee;
   color: #666;
+}
+.msger-header button{
+   
+  background-color: #ED1C24; 
+  border: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
 }
 
 .msger-chat {
@@ -171,13 +197,29 @@ body {
 
 <body>
   <!-- partial:index.partial.html -->
+  
   <section class="msger">
     <header class="msger-header">
+      
+        <div>
+            <!-- <img src="images/Diabete_Helper.png" alt="DiabeteHelper"> -->
+            <span style="color: #eb1c24; font-size: 36px;">Diabete</span><span style="color: #5da8e1; font-size: 36px;">Helper</span>
+            
+        </div>
+        
+            
+            <!-- <a href="logout.jsp">Logout</a> -->
+            
+       
+    
       <div class="msger-header-title">
-        <i class="fas fa-bug"></i> Chatbot <i class="fas fa-bug"></i>
+        <i class="fas fa-bug"></i>Hi {{ username|upper }} Welcome to the Chatbot <i class="fas fa-bug"></i>
+        
       </div>
+    
+      <a href="http://localhost:8080/logout" target="_parent">Logout</a>
     </header>
-
+    
     <main class="msger-chat">
       <div class="msg left-msg">
         <div class="msg-img" style="background-image: url(https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/1654084821611/Aitherapy-logo.png)"></div>

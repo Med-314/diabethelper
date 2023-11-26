@@ -12,6 +12,7 @@ import user_registration.service.UserService;
 import user_registration.service.UserServiceImpl;
 
 import java.io.IOException;
+import java.net.URLEncoder;
 
 /**
  * Servlet implementation class LoginServlet
@@ -32,11 +33,12 @@ public class LoginServlet extends HttpServlet {
 		String uname = loginService.login(uemail, upwd);
 		if(uname != null) {
 			request.setAttribute("uemail", uemail);
-			session.setAttribute("name", uname);
+			session.setAttribute("uname", uname);
 			//dispatcher=request.getRequestDispatcher("index.jsp");
 			//dispatcher=request.getRequestDispatcher("index.html");
 			//dispatcher=request.getRequestDispatcher("http://127.0.0.1:5000");
-			response.sendRedirect("http://127.0.0.1:5000");
+			//response.sendRedirect("http://127.0.0.1:5000");
+			response.sendRedirect("http://127.0.0.1:5000/?uname=" + URLEncoder.encode(uname, "UTF-8"));
 		}
 		else {
 		    request.setAttribute("msg", "Wrong Username or Password, Try again!!!");
