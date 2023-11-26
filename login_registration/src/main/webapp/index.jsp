@@ -20,22 +20,25 @@
         <nav class="navigation">
             <a href="#Home">Home</a>
             <a href="login.jsp">Login</a>
+            <a href="registration.jsp">Sign Up</a>
             <a href="#contact">Contact us</a>
         </nav>
     </header>
 
 
     <section class="main">
-        <div>
-            <h2>Hello, we are DiabeteHelpers<br><span>DiabeteHelper</span></h2>
-            <h3>Empowering Lives, Managing Diabetes Together.</h3>
-            <h4>Join our community and stay informed about your diabetes status.</h4>
-            <a href="registration.jsp" target="_parent"><button>Sign Up</button></a>
-            Or
-            <a href="login.jsp" target="_parent"><button>Login</button></a>
-            <!--<button type="button" href="login.html">Login!</button>-->
-        </div>
-        <img src="images/diabeteimg.png" alt="daibete">
+            <img src="images/diabeteimg.png" alt="daibete">
+            <div Align=Center class="container">
+                <h2>Hello, Welcome to DiabeteHelper<br><span>A ChatBot to support diabetic patients self-manage their diabetes</span></h2>
+                <h3>Empowering Lives, Managing Diabetes Together.</h3>
+                <h2>Join us and start chating with our ChatBot.</h2>
+                <a href="registration.jsp" target="_parent"><button>Sign Up</button></a>
+                Or
+                <a href="login.jsp" target="_parent"><button>Login</button></a>
+                <!--<button type="button" href="login.html">Login!</button>-->
+            </div>
+            
+            <img src="images/signinimage.jpg" alt="daibetehelper">
     </section>
 
 
@@ -65,7 +68,7 @@
     
     <footer class="footer">
         <div class="social-icons">
-            <p>&copy; 2023 DiabeteHelper. All rights reserved.</p>
+            <p >&copy; 2023 DiabeteHelper. All rights reserved.</p>
              
         </div>
     </footer>
