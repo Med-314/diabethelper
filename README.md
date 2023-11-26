@@ -18,25 +18,13 @@ Encadré par:
 2. [Interfaces de l'application](#interfaces-de-lapplication)
 
 3. [Prérequis](#prérequis)
-   - [TensorFlow](#tensorflow)
-   - [NLTK](#nltk)
-   - [Flask](#flask)
-   - [Serveur Tomcat](#serveur-tomcat)
-   - [Base de données MySQL](#base-de-donnees-mysql)
-   - [IntelliJ, Eclipse](#intellij-eclipse)
 
 4. [Utilisation](#utilisation)
-   - [Configuration de la base de données](#configuration-de-la-connexion-a-la-base-de-donnees)
-   - [Démarrage du projet](#demarrage-du-projet)
-   - [Ouverture de l'application web](#ouverture-de-lapplication-web)
-   - [Création de compte](#creation-de-compte)
-   - [Connexion](#connexion)
-   - [Interaction avec le chatbot](#interaction-avec-le-chatbot)
 
   
 ## Objectif du projet
 
-Le projet "<b><i>Diabete Helper Chatbot</i></b>" est une application JEE intégrant un chatbot intelligent qui permet aux utilisateurs de s'inscrire, de se connecter et d'interagir avec le chatbot pour fournir des informations médicales. Ces données sont ensuite analysées à l'aide de techniques de machine learning pour détecter les signes de diabète ou de prédiabète. Le chatbot génère des conseils et des solutions personnalisés, enregistre les données dans une base de données sécurisée. Cette application vise à offrir un soutien personnalisé pour la gestion du diabète, combinant les avantages de JEE, de l'analyse des données et de l'intelligence artificielle pour améliorer la qualité de vie des utilisateurs atteints de diabète.
+Le projet "<b><i>Diabete Helper Chatbot</i></b>" est une application JEE intégrant un chatbot intelligent qui permet aux utilisateurs de s'inscrire, de se connecter et d'interagir avec le chatbot pour fournir des informations médicales. Ces données sont ensuite analysées à l'aide de techniques de machine learning pour détecter les signes de diabète ou de prédiabète. Le chatbot génère des conseils et des solutions personnalisés, enregistre les données dans une base de données sécurisée. Cette application combine les avantages de JEE et de l'analyse des données et de l'intelligence artificielle pour améliorer la qualité de vie des utilisateurs atteints de diabète.
 
 ## Interfaces de l'application
 
