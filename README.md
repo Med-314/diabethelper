@@ -11,10 +11,6 @@ Encadré par:
   <li>MAHMOUD EL HAMLAOUI</li>
 </ul>
 
-
-It looks like the issue might be related to the special characters in your anchor links, particularly in the "Interfaces de l'application" section. Let's update the anchor links to ensure they work correctly. Also, make sure that the image URLs are correct.
-
-```markdown
 # Table des Matières
 
 1. [Objectif du projet](#objectif-du-projet)
@@ -88,4 +84,4 @@ Voici la traduction avec des instructions pour installer TensorFlow, NLTK et Fla
 4. Création de compte.
 5. Connexion.
 6. Interagir avec le chatbot.
-```
+
