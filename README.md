@@ -17,9 +17,9 @@ Encadré par:
 
 2. [Interfaces de l'application](#interfaces-de-lapplication)
 
-3. [Prérequis](#prérequis)
+3. [Prérequis](#prérequis-)
 
-4. [Utilisation](#utilisation)
+4. [Utilisation](#utilisation-)
 
   
 ## Objectif du projet
