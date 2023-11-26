@@ -18,20 +18,9 @@ Encadré par:
 2. [Interfaces de l'application](#interfaces-de-lapplication)
 
 3. [Prérequis](#prérequis)
-   - [TensorFlow](#tensorflow)
-   - [NLTK](#nltk)
-   - [Flask](#flask)
-   - [Serveur Tomcat](#serveur-tomcat)
-   - [Base de données MySQL](#base-de-données-mysql)
-   - [IntelliJ, Eclipse](#intellij-eclipse)
 
 4. [Utilisation](#utilisation)
-   - [Configuration de la base de données](#configuration-de-la-connexion-à-la-base-de-données)
-   - [Démarrage du projet](#démarrage-du-projet)
-   - [Ouverture de l'application web](#ouverture-de-lapplication-web)
-   - [Création de compte](#création-de-compte)
-   - [Connexion](#connexion)
-   - [Interaction avec le chatbot](#interaction-avec-le-chatbot)
+
   
 ## Objectif du projet
 
@@ -45,7 +34,6 @@ Le projet "<b><i>Diabete Helper Chatbot</i></b>" est une application JEE intégr
 4. ![Interface 4](https://github.com/Med-314/diabethelper/assets/148261218/bd7b34ed-b94b-4195-bc34-81bef21ac55f)
 5. ![Interface 5](https://github.com/Med-314/diabethelper/assets/148261218/5f0f73d6-f212-4386-98f8-d0abf7fef6a8)
 
-Voici la traduction avec des instructions pour installer TensorFlow, NLTK et Flask :
 
 ## Prérequis :
 
