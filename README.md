@@ -1,14 +1,14 @@
 # JEE_PROJECT_2023
 Réalisé par: 
 <ul>
-  <li>DARBALI OUSSAMA</li>
-  <li>CHAGOUTI EL HOUCINE</li>
-  <li>AIT TOUDA MOHAMED</li>
+  <li>DARBALI OUSSAMA </li>
+  <li>CHAGOUTI EL HOUCINE </li>
+  <li>AIT TOUDA MOHAMED </li>
   <li>MAKAN ABDESSAMAD </li>
 </ul>
 Encadré par:
 <ul>
-  <li>MAHMOUD EL HAMLAOUI</li>
+  <li>MAHMOUD EL HAMLAOUI </li>
 </ul>
 
 # Table des Matières
