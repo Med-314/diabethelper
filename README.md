@@ -4,7 +4,7 @@ Réalisé par:
   <li>DARBALI OUSSAMA</li>
   <li>CHAGOUTI EL HOUCINE</li>
   <li>AIT TOUDA MOHAMED</li>
-  <li>MAKAN ABDESSAMAD</li>
+  <li>MAKAN ABDESSAMAD </li>
 </ul>
 Encadré par:
 <ul>
