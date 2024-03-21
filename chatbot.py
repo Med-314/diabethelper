@@ -1,16 +1,19 @@
 import json
 import random
 
+
 import nltk
 import numpy as np
 from keras.models import load_model
 from nltk.stem.lancaster import LancasterStemmer
+
 
 #nltk.download('popular')
 #from nltk.stem import WordNetLemmatizer
 
 #lemmatizer = WordNetLemmatizer()
 #import pickle
+
 
 
 with open('intents_data.json') as json_data:
